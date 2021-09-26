@@ -1,0 +1,42 @@
+<?xml version ="1.0" encoding = "UTF-8"?>
+<!DOCTYPE audio  SYSTEM "WebTech.dtd">
+
+
+<medlib>
+
+	<audio id = "a174">
+		<title>
+			GTX 1050 Ti Benchmark
+		</title>
+		<source>
+			<name> 
+				Nvidia Corp.
+			</name>
+			<URL>
+				https://youtube.com/irgendwas
+			</URL>
+		</source>
+		<reference>
+			Some YouTube channel
+		</reference>
+		<date>
+			24.09.2021
+		</date>
+	</audio>
+	
+	<video id = "b174">
+		<Titel> Dies wird ein Video  </Titel>
+		<Quelle> Wahrscheinlich YouTube </Quelle>
+		<description> Irgendein sinnloses Video </description>
+	</video>
+
+	<picture id = "c174">
+		<title> das Bild XY hat auch einen Titel </title>
+		<source> myfoto....</source>
+		<resolution> 1920x1440 </resolution>
+		<filetype> hopefully not jpeg </filetype>
+	</picture>
+	
+			
+	
+</medlib>

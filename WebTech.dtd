@@ -1,0 +1,16 @@
+	<!ELEMENT medlib (audio+,video+)>
+    
+    
+    
+    <!ELEMENT audio (id,title,source+,reference,date)>
+	<!ATTLIST audio language (german|english|spanish) #REQUIRED>
+		<!ELEMENT id (#PCDATA)>
+			<!ELEMENT source (name, URL)>
+				<!ELEMENT name (#PCDATA)>
+				<!ELEMENT URL (#PCDATA)>
+			<!ELEMENT reference (#PCDATA)>
+			<!ELEMENT date (#PCDATA)>
+	
+
+	<!ELEMENT video (id,Titel,Quelle,description)>
+	<!ELEMENT picture (id,title,source,resolution,filetype)>
